@@ -39,8 +39,9 @@ const theme = createTheme({
     $windowBackground: '#f0f0f0',
     $background: palette.paper10,
     $foreground: palette.paper900,
-    $sidebarBackground: palette.navy20,
-    $sidebarForeground: palette.navy900
+    $sidebarBackground: palette.ebony,
+    $sidebarForeground: palette.navy900,
+    $sidebarSeperator: palette.paper00 + '20'
   },
   borderRadii: {
     xs: 4,
