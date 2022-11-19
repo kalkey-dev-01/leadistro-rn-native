@@ -1,17 +1,25 @@
 // prettier-ignore
 {
-  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig.json to read more about this file */
     "target": "ESNext",
+    "lib": ["ES2017"],
     "jsx": "react-native",
-    /* Completeness */
-    "skipLibCheck": true,
+    "module": "CommonJS",
     "moduleResolution": "Node",
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*":["src/*"]
     },
-    "allowJs": true,                                 /* Skip type checking all .d.ts files. */
-  }
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules","babel.config.js","metro.config.js","jest.config.js"
+  ]
 }
