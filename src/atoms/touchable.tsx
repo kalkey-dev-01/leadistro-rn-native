@@ -42,7 +42,7 @@ const Touchable = ({
 }
 
 export const TouchableOpacity: React.FC<Props> = props => (
-    <Touchable rippleColor={'blue'} {...props} pressed={{opacity: Platform.select({ios: 0.6})}} />
+    <Touchable rippleColor={'$sidebarForeground'} {...props} pressed={{opacity: Platform.select({ios: 0.6})}} />
 )
 
 export default Touchable
