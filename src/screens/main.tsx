@@ -21,7 +21,7 @@ export default function MainScreen({ navigation }: Props) {
                 <TouchableOpacity m='xs' p={'xs'} rippleBorderless onPress={handleSidebarToggle}>
                     <FeatherIcon name='menu' size={22} />
                 </TouchableOpacity>
-                <Box alignItems={'center'} flex={1} ><Text>Leadistro</Text></Box>
+                <Box alignItems={'center'} flex={1} ><Text fontSize={30}>Leadistro</Text></Box>
                 <TouchableOpacity m='xs' p={'xs'} rippleBorderless>
                     <FeatherIcon name='more-vertical' size={22} />
                 </TouchableOpacity>
