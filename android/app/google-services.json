@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "166347259011",
+    "project_id": "leadsref",
+    "storage_bucket": "leadsref.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166347259011:android:428b1162a5994fe28fafb6",
+        "android_client_info": {
+          "package_name": "com.leadistro.leadistroMobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166347259011-gplepj1rvmpb44e53o0n0si03pssro4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leadistro.leadistroMobile",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "166347259011-fc8hokh5rbm3b3159c7gitfo3i9rhvup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCodAuwsmtVXzHBr0a-qwTt4Hzwnr0zIEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166347259011-fc8hokh5rbm3b3159c7gitfo3i9rhvup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

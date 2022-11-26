@@ -24,6 +24,9 @@ const theme = createTheme({
     lg: 16,
     xl: 24,
     xxl: 48,
+    '50': 50,
+    '75':75,
+    '100':100,
     hg: 128
   },
   breakpoints: {
@@ -42,7 +45,7 @@ const theme = createTheme({
     $sidebarBackground: palette.ebony,
     $sidebarForeground: palette.navy900,
     $sidebarSeperator: palette.paper00 + '20',
-    $headerBarBackground:palette.paper20
+    $headerBarBackground: palette.paper20
   },
   borderRadii: {
     xs: 4,
@@ -60,8 +63,8 @@ const theme = createTheme({
       color: '$windowBackground'
     }
   },
-  barVariants:{
-    headerBar:{
+  barVariants: {
+    headerBar: {
       bg: '$headerBarBackground',
       borderRadius: 'hg'
     }

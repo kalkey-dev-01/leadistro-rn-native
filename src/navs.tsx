@@ -12,10 +12,10 @@ export type HomeDrawerParamList = {
 }
 export type RootStackParamList = {
     Home: NavigatorScreenParams<HomeDrawerParamList>
-    Detail: {
-        leadId: string
-    }
+    
 }
+
+
 
 const Stack = createNativeStackNavigator<RootStackParamList>()
 const Drawer = createDrawerNavigator<HomeDrawerParamList>()
